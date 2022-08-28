@@ -484,14 +484,8 @@ coefplot (edu, 			), bylabel(Educational Attainment) ///
 graph export "Figure2.tif", replace as(tif) name("Graph")
 	
 ***ROBUSTNESS CHECK****
-
-
 **selection into ACstatus
 
-***ROBUSTNESS CHECK****
-
-
-**selection into ACstatus
 **address concern of whether an obs become a cargiver because they already work less hours.
 
 reg hrswork2017 ACstatus2019 if ACstatus2017==0 
